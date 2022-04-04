@@ -3,6 +3,8 @@
     width: auto;
     height: 52px;
     display: flex;
+    justify-content: space-between;
+    align-items: end;
 }
 
 @media screen and (max-width: 984px) {
