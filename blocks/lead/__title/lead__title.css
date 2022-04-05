@@ -8,11 +8,19 @@
     margin: 0;
     max-width: 720px;
     min-width: 288px;
+    word-break: break-word;
 }
 
 @media screen and (max-width: 568px) {
     .lead__title{
        font-size: 40px;
-        line-height: 44px;
+       line-height: 44px;
+    }
+}
+
+@media screen and (min-width: 568px) and (max-width: 685px){
+    .lead__title{
+       font-size: 40px;
+       line-height: 44px;
     }
 }
