@@ -5,6 +5,7 @@
     text-decoration: none;
     color: #FFFFFF;
     margin: 0 18px 0 0;
+    max-height: 18px;
 }
 
 @media screen and (max-width: 568px){
@@ -13,8 +14,8 @@
         line-height: 24px;
         margin-bottom: 32px;
     }
-}
-
-.footer__link:last-of-type{
+    .footer__link:last-of-type{
     margin-bottom: 48px;
 }
+}
+
