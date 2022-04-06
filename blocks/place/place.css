@@ -1,24 +1,24 @@
-.place{
+.place {
     display: grid;
     grid-template-areas: "title url"
                           "image paragraph";
     gap: 40px;
 }
 
-@media screen and (max-width: 1140px){
-    .place{
+@media screen and (max-width: 1140px) {
+    .place {
         gap: 32px;
     }
 }
 
 @media screen and (max-width: 984px) {
-    .place{
+    .place {
         gap: 28px;
     }
 }
 
 @media screen and (max-width: 568px) {
-    .place{
+    .place {
         grid-template-areas: none;
         gap: 32px;
     }
