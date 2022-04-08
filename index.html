@@ -29,11 +29,13 @@
             проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места,
             достойные вашего отпуска.
         </p>
-        <p class="intro__list">Часовых поясов 11</p>
-        <p class="intro__list">Объектов природного наследия ЮНЕСКО 12</p>
-        <p class="intro__list">Объектов культурного наследия ЮНЕСКО 16</p>
-        <p class="intro__list">Природных заповедников 105</p>
-        <p class="intro__list">Аэропортов 241</p>
+        <ul class="intro__list">
+            <li><span class="intro__list-title">Часовых поясов</span> 11</li>
+            <li><span class="intro__list-title">Объектов природного наследия ЮНЕСКО</span> 12</li>
+            <li><span class="intro__list-title">Объектов культурного наследия ЮНЕСКО</span> 16</li>
+            <li><span class="intro__list-title">Природных заповедников</span> 105</li>
+            <li><span class="intro__list-title">Аэропортов</span> 241</li>
+        </ul>
     </section>
     <section class="photo-grid content__section">
         <img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="Поезд">
@@ -50,7 +52,7 @@
         <img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" alt="Ергаки">
     </section>
     <section class="places content__section">
-        <div class="place">
+        <article class="place">
             <h3 class="place__title">Куршская коса</h3>
             <div class="place__website">
                 <h4 class="place__url-heading">URL</h4>
@@ -68,8 +70,8 @@
                     окуная в спокойствие природы и запах стального, прохладного моря.
                 </p>
             </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
             <h3 class="place__title">Кольский</h3>
             <div class="place__website">
                 <h4 class="place__url-heading">URL</h4>
@@ -88,8 +90,8 @@
                     начинает сбываться с билетом в Мурманск.
                 </p>
             </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
             <h3 class="place__title">Алтай</h3>
             <div class="place__website">
                 <h4 class="place__url-heading">URL</h4>
@@ -108,8 +110,8 @@
                     летают орлы, а на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.
                 </p>
             </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
             <h3 class="place__title">Зимний Байкал</h3>
             <div class="place__website">
                 <h4 class="place__url-heading">URL</h4>
@@ -126,8 +128,8 @@
                     был поставлен мировой рекорд — 197.011 км/ч.
                 </p>
             </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
             <h3 class="place__title">Карелия</h3>
             <div class="place__website">
                 <h4 class="place__url-heading">URL</h4>
@@ -145,7 +147,7 @@
                     в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.
                 </p>
             </div>
-        </div>
+        </article>
     </section>
     <section class="cover content__section">
         <a class="cover__item" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
@@ -157,11 +159,15 @@
     </section>
 </main>
 <footer class="footer">
-    <a class="footer__link links" target="_blank" href="https://yandex.ru/maps" title="Карты">Карты</a>
-    <a class="footer__link links" target="_blank" href="https://yandex.ru/pogoda" title="Погода">Погода</a>
-    <a class="footer__link links" target="_blank" href="https://rasp.yandex.ru" title="Расписание">Расписание</a>
-    <a class="footer__link links" target="_blank" href="https://calendar.yandex.ru" title="Календарь">Календарь</a>
-    <a class="footer__link links" target="_blank" href="https://travel.yandex.ru" title="Путешествия">Путешествия</a>
+    <nav>
+        <ul class="footer__links">
+            <li><a class="footer__link links" target="_blank" href="https://yandex.ru/maps" title="Карты">Карты</a></li>
+            <li><a class="footer__link links" target="_blank" href="https://yandex.ru/pogoda" title="Погода">Погода</a></li>
+            <li><a class="footer__link links" target="_blank" href="https://rasp.yandex.ru" title="Расписание">Расписание</a></li>
+           <li><a class="footer__link links" target="_blank" href="https://calendar.yandex.ru" title="Календарь">Календарь</a></li>
+           <li><a class="footer__link links" target="_blank" href="https://travel.yandex.ru" title="Путешествия">Путешествия</a></li>
+        </ul>
+    </nav>
     <p class="footer__copyright">&copy; 2022. Мария Данилова</p>
 </footer>
 </body>
